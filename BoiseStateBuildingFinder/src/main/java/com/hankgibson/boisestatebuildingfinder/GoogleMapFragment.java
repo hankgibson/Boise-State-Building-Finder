@@ -186,7 +186,7 @@ public class GoogleMapFragment extends SupportMapFragment implements GoogleMap.O
         String sensor = "sensor=false";
 
         // Building the parameters to the web service
-        String parameters = str_origin+"&"+str_dest+"&"+sensor+"&" + str_mode;
+        String parameters = str_origin+"&"+str_dest+"&"+sensor+"&" + str_mode + "&" units=metric;
 
         // Output format
         String output = "json";
